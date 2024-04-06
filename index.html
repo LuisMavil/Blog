@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Ejemplo de HTML5">
+  <meta name="keywords" content="HTML5, CSS3, JavaScript">
+  <meta http‐equiv="refresh" content="20;URL=./2PantillaBasica.htm" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divisones Sem&aacute;ticas</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="css/estiloBasico.css">
+</head>
+<body>
+  <div id="agrupar">
+
+  <header id="cabecera">
+      <h1>Mi Curriculum</h1>
+  </header>
+
+  <nav id="menu">
+    <ul>
+    <li><a href="#principal">principal</a></li>
+    <li><a href="#fotos">fotos</a></li>
+    <li><a href="#video">videos</a></li>
+    <li><a href="#contacto">contacto</a></li>
+    </ul>
+  </nav>
+
+
+  <aside id="columna"> <!-- aside -->
+    <h1 id="#contacto"> Contactanos</h1>
+    <blockquote>272-181-7265</blockquote>
+    <a href="https://www.facebook.com/luisenrique.mavilbarojas?mibextid=ZbWKwL">
+     <figure>
+       <img src="facebook.png" alt="facebook" >
+     </figure>
+   </a>
+
+   <a href="https://www.instagram.com/mavil_jg?igsh=aTMwYXRvMW9tY3Zo">
+      <figure>
+        <img src="insta.png" alt="instagram">
+      </figure>
+    </a>
+</aside> <!-- Fin aside -->
+
+  <section id="seccion">
+      <article><!--Primer articulo-->
+        <header>
+              <hgroup>
+                  <h1 id="principal">Luis Enrique Mavil Barojas</h1>
+                  <h4>Informacion personal</h4>
+              </hgroup>
+              <time datetime="2011-12-10" pubdate>
+                    publicado 10-12-2011
+              </time>
+        </header>
+          En este apartado abarcare algunos aspectos de informaci&oacute;n
+          <figure>
+            <video width="320" height="240"  controls>
+              <source src="video.mp4" type="video/mp4">
+                <figcaption>
+                    Video de presentacion
+                </figcaption>
+          </figure>
+
+          <footer>
+              <p>comentarios (0)</p>
+          </footer>
+      </article><!-- Fin Primer articulo-->
+
+      <article><!-- Segundo articulo-->
+          <header>
+            <hgroup>
+                <h1>Instituto Tecnologico de Orizaba</h1>
+                <h4>Imagenes de Facebook</h4>
+            </hgroup>
+            <time datetime="2011-12-15" pubdate>
+                publicado 04-03-2024
+            </time>
+         </header>
+         Direccion del Tecnologico
+         <figure>
+               <img id="imagenyo" src="luis.jpg">
+               <figcaption>
+                    Imagen mia de bebe c:
+               </figcaption>
+         </figure>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15103.110581743695!2d-97.1002866!3d18.85255205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c502aeb2d35fed%3A0xba5f3840b0862949!2sTecNM%20-%20Campus%20Orizaba!5e0!3m2!1ses-419!2smx!4v1709576961318!5m2!1ses-419!2smx" width="620" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         <br>
+         <br>
+         <footer>
+            <p>comentarios (0)</p>
+          </footer>
+    </article> <!-- Fin Segundo articulo-->
+
+    <article>
+      <header>
+        <hgroup>
+          <h1 id="fotos">Fotos personales</h1>
+        </hgroup>
+      <figure>
+        <img id="imagenyo" src="foto1.jpg"> <img id="imagenyo" src="foto2.jpg">
+        
+      </figure>
+      <figure>
+        <img id="imagenyo" src="foto3.jpg"> <img id="imagenyo" src="foto4.jpg">
+      </figure>
+      </header>
+    </article>
+
+    <article>
+      <header>
+        <hgroup>
+          <h1 id="video">Mis Tik toks c:</h1>
+        </hgroup>
+      <figure>
+        <video width="320" height="240" controls>
+          <source src="video1.mp4" type="video/mp4">  
+      </figure>
+      <figure>
+        <video width="320" height="240" controls>
+          <source src="video2.mp4" type="video/mp4">
+      </figure>
+      </header>
+    </article>
+</section> <!--Fin de section seccion-->
+
+
+  <footer id="pie">
+      Derechos Reservados &copy; 2010-2011
+      <address>
+          <a href="http://www.itorizaba.edu.mx">ITO</a>
+      </address>
+  </footer>
+
+</div> <!--fin div agrupar-->
+
+</body>
+</html>
